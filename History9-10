@@ -1,0 +1,172 @@
+ 1  exit
+    2  clear
+    3  ls
+    4  ifconfig
+    5  hostname
+    6  exit
+    7  clear
+    8  ls
+    9  clear
+   10  hostnamectl
+   11  nano /etc/hostname
+   12  clear
+   13  sudo nano /etc/hosts
+   14  clear
+   15  reboot
+   16  clear
+   17  ifconfig
+   18  ping google.com
+   19  shutdown -n
+   20  shutdown /?
+   21  man shutdown
+   22  shutdown -P
+   23  exit
+   24  clear
+   25  hostname
+   26  hostnamectl
+   27  nano /etc/hostname
+   28  clear
+   29  sudo nano /etc/hosts
+   30  clear
+   31  reboot
+   32  ls
+   33  clear
+   34  ifconfig
+   35  exit
+   36  clear
+   37  nano /etc/hostname
+   38  clear
+   39  sudo nano /etc/hosts
+   40  clear
+   41  reboot
+   42  ifconfig
+   43  exit
+   44  clear
+   45  ssh root@gateway
+   46  ssh-copy-id root@gateway
+   47  ssh root@gateway
+   48  exit
+   49  yum update
+   50  yum install htop
+   51  yum update
+   52  ping -c 1 8.8.8.8
+   53  htop
+   54  logout
+   55  ifconfig
+   56  ls
+   57  clear
+   58  passwd
+   59  clear
+   60  file /usr/bin/clean-binary-files
+   61  wc /usr/bin/clean-binary-files
+   62  head
+   63  wc /usr/bin/clean-binary-files
+   64  head /usr/bin/clean-binary-files
+   65  tail /usr/bin/clean-binary-files
+   66  clear
+   67  tail /usr/bin/clean-binary-files -n 20
+   68  clear
+   69  history
+   70  clear
+   71  date
+   72  clear
+   73  history
+   74  clear ; history | tail -n 5
+   75  date
+   76  clear
+   77  adduser Jason -m
+   78  su jason
+   79  su Jason
+   80  passwd Jason
+   81  su Jason
+   82  tree
+   83  yum install tree
+   84  sudo -i
+   85  clear
+   86  tree/
+   87  tree /
+   88  clear
+   89  tree / |less
+   90  ls /
+   91  tree /home
+   92  tree /root
+   93  clear
+   94  tree /var
+   95  tree /var |less
+   96  clear
+   97  cat /dev/urandom
+   98  yum install git
+   99  start-statd
+  100  history
+  101  rw man
+  102  man rw
+  103  touch doesthiswork
+  104  ls -l
+  105  echo "hi" > doesthiswork
+  106  ls -l
+  107  touch song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3
+  108  touch snap1.jpg snap2.jpg snap3.jpg snap4.jpg snap5.jpg snap6.jpg
+  109  touch film1.avi film2.avi film3.avi film4.avi film5.avi film6.avi
+  110  ls -l
+  111  mkdir Music
+  112  mv song1.mp3 song2.mp3 song3.mp3 song4.mp3 song5.mp3 song6.mp3 Music/
+  113  cd Music
+  114  ls
+  115  mkdir Pictures
+  116  mkdir Videos
+  117  rm -rf Pictures
+  118  rm -rf Videos
+  119  ls
+  120  ..
+  121  .
+  122  cd ./
+  123  cd /
+  124  mkdir Pictures
+  125  mv snap1.jpg snap2.jpg snap3.jpg snap4.jpg snap5.jpg snap6.jpg Pictures/
+  126  ls -l
+  127  cd /home
+  128  ls -l
+  129  cd ./
+  130  cd ../
+  131  cd ~
+  132  mv snap1.jpg snap2.jpg snap3.jpg snap4.jpg snap5.jpg snap6.jpg Pictures/
+  133  mkdir Pictures
+  134* mv snap1.jpg snap2.jpg snap3.jpg snap4.jpg snap5.jpg snap6.jpg
+  135  mv film1.avi film2.avi film3.avi film4.avi film5.avi film6.avi Videos/
+  136  mkdir Videos
+  137  mv film1.avi film2.avi film3.avi film4.avi film5.avi film6.avi Videos/
+  138  ls -lo
+  139  ls -l
+  140  mkdir Friends Family Work
+  141  cd Friends/
+  142  cp ~/Music/song1.mp3/Music/song2.mp3 ~/Pictures/
+  143  cp ~/Music/song1.mp3 ~/Music/song2.mp3 ~/Pictures/
+  144  ls -l ../Pictures/
+  145  mv ../Pictures/song1.mp3 ../Pictures/song2.mp3 ../Music/
+  146  ls -l
+  147  ls
+  148  ls Pictures
+  149  cd ./~
+  150  cd ~
+  151  ls
+  152  ls Pictures/
+  153  cd Friends/
+  154  mv ../Pictures/song2.mp3 ../Music/
+  155  cd ~
+  156  ls Pictures/
+  157  cd Freinds
+  158  cd Friends/
+  159  cp ~/Music/song1.mp3 ~/Music/song2.mp3 ~/Pictures/snap1.jpg ~/Pictures/snap2.jpg ~/Videos/film1.avi ~/Videos/film2.avi .
+  160  ls -l
+  161  cd ../Family/
+  162  cp ~/Music/song3.mp3 ~/Music/song4.mp3 ~/Pictures/snap3.jpg ~/Pictures/snap4.jpg ~/Videos/film3.avi ~/Videos/film4.avi .
+  163  ls -l
+  164  cd ../Work
+  165  cp ~/Music/song5.mp3 ~/Music/song6.mp3 ~/Pictures/snap5.jpg ~/Pictures/snap6.jpg ~/Videos/film5.avi ~/Videos/film6.avi .
+  166  ls -l
+  167  cd
+  168  rm -rf Family/ Freinds/
+  169  ls -l
+  170  rm -rf Freinds/
+  171  rm song5.mp3 song6.mp3 snap5.jpg snap6.jpg film5.avi film6.avi
+  172  history
